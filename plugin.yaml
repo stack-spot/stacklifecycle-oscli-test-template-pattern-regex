@@ -1,0 +1,17 @@
+name: template-regex
+description: Describe your template explaining its purpose
+types:
+  - app-template
+inputs:
+  - label: Project dfdf name
+    type: text
+    name: project_name
+    default: project@name
+    pattern: '^[\d]{0,1}$'
+  - label: Project name folder
+    type: text
+    name: project_folder
+    default: project@name
+    required: True
+    pattern: '^[A-Za-z]{0,1}$'
+
